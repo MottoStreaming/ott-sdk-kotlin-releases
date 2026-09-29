@@ -1,0 +1,376 @@
+public final class com/mottostreaming/ott/navigation/ExternalLinkHandoff {
+	public static final field $stable I
+	public static final field Companion Lcom/mottostreaming/ott/navigation/ExternalLinkHandoff$Companion;
+	public fun <init> (Ljava/net/URI;)V
+	public final fun component1 ()Ljava/net/URI;
+	public final fun copy (Ljava/net/URI;)Lcom/mottostreaming/ott/navigation/ExternalLinkHandoff;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/navigation/ExternalLinkHandoff;Ljava/net/URI;ILjava/lang/Object;)Lcom/mottostreaming/ott/navigation/ExternalLinkHandoff;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getAddress ()Ljava/lang/String;
+	public final fun getQrCode ()Lcom/mottostreaming/ott/core/content/QrCode;
+	public final fun getUrl ()Ljava/net/URI;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/ExternalLinkHandoff$Companion {
+	public final fun isDeviceDefault (Lcom/mottostreaming/ott/core/platform/DeviceKind;)Z
+	public final fun isWebAddress (Ljava/net/URI;)Z
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationCommandsKt {
+	public static final fun NavigationCommands (Lcom/mottostreaming/ott/navigation/StackNavigator;Landroidx/compose/runtime/Composer;I)V
+	public static final fun NavigationCommands (Lcom/mottostreaming/ott/navigation/TabNavigator;Landroidx/compose/runtime/Composer;I)V
+	public static final fun tabBarCommands (Landroidx/compose/ui/Modifier;Lcom/mottostreaming/ott/navigation/TabNavigator;Lkotlin/jvm/functions/Function1;ZLandroidx/compose/runtime/Composer;II)Landroidx/compose/ui/Modifier;
+}
+
+public abstract interface class com/mottostreaming/ott/navigation/NavigationDestination {
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationDestination$externalLink : com/mottostreaming/ott/navigation/NavigationDestination {
+	public static final field $stable I
+	public fun <init> (Ljava/net/URI;)V
+	public final fun component1 ()Ljava/net/URI;
+	public final fun copy (Ljava/net/URI;)Lcom/mottostreaming/ott/navigation/NavigationDestination$externalLink;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/navigation/NavigationDestination$externalLink;Ljava/net/URI;ILjava/lang/Object;)Lcom/mottostreaming/ott/navigation/NavigationDestination$externalLink;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getUrl ()Ljava/net/URI;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationDestination$page : com/mottostreaming/ott/navigation/NavigationDestination {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;)Lcom/mottostreaming/ott/navigation/NavigationDestination$page;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/navigation/NavigationDestination$page;Ljava/lang/String;ILjava/lang/Object;)Lcom/mottostreaming/ott/navigation/NavigationDestination$page;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getTarget ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationDestination$screen : com/mottostreaming/ott/navigation/NavigationDestination {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;Ljava/util/Map;)V
+	public synthetic fun <init> (Ljava/lang/String;Ljava/util/Map;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/util/Map;
+	public final fun copy (Ljava/lang/String;Ljava/util/Map;)Lcom/mottostreaming/ott/navigation/NavigationDestination$screen;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/navigation/NavigationDestination$screen;Ljava/lang/String;Ljava/util/Map;ILjava/lang/Object;)Lcom/mottostreaming/ott/navigation/NavigationDestination$screen;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getQueryParams ()Ljava/util/Map;
+	public final fun getRoute ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationOptions {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun <init> (Ljava/util/Set;Lkotlin/jvm/functions/Function1;Ljava/lang/Boolean;Lkotlin/jvm/functions/Function1;)V
+	public synthetic fun <init> (Ljava/util/Set;Lkotlin/jvm/functions/Function1;Ljava/lang/Boolean;Lkotlin/jvm/functions/Function1;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/util/Set;
+	public final fun component2 ()Lkotlin/jvm/functions/Function1;
+	public final fun component3 ()Ljava/lang/Boolean;
+	public final fun component4 ()Lkotlin/jvm/functions/Function1;
+	public final fun copy (Ljava/util/Set;Lkotlin/jvm/functions/Function1;Ljava/lang/Boolean;Lkotlin/jvm/functions/Function1;)Lcom/mottostreaming/ott/navigation/NavigationOptions;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/navigation/NavigationOptions;Ljava/util/Set;Lkotlin/jvm/functions/Function1;Ljava/lang/Boolean;Lkotlin/jvm/functions/Function1;ILjava/lang/Object;)Lcom/mottostreaming/ott/navigation/NavigationOptions;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getClaims ()Lkotlin/jvm/functions/Function1;
+	public final fun getHandsOffWebLinks ()Ljava/lang/Boolean;
+	public final fun getOpenExternal ()Lkotlin/jvm/functions/Function1;
+	public final fun getScreens ()Ljava/util/Set;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationStackHostKt {
+	public static final fun NavigationStackHost (Ljava/util/List;Landroidx/compose/ui/Modifier;ILkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+	public static final fun getLocalStackEntryInFront ()Landroidx/compose/runtime/ProvidableCompositionLocal;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab {
+	public static final field $stable I
+	public static final field Companion Lcom/mottostreaming/ott/navigation/NavigationTab$Companion;
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;Lcom/mottostreaming/ott/navigation/NavigationTab$Kind;Ljava/util/List;)V
+	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;Lcom/mottostreaming/ott/navigation/NavigationTab$Kind;Ljava/util/List;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;Lcom/mottostreaming/ott/navigation/NavigationTab$Kind;Ljava/util/List;Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component3 ()Lcom/mottostreaming/ott/navigation/NavigationTab$Kind;
+	public final fun component4 ()Ljava/util/List;
+	public final fun component5 ()Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;Lcom/mottostreaming/ott/navigation/NavigationTab$Kind;Ljava/util/List;Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose;)Lcom/mottostreaming/ott/navigation/NavigationTab;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/navigation/NavigationTab;Ljava/lang/String;Ljava/lang/String;Lcom/mottostreaming/ott/navigation/NavigationTab$Kind;Ljava/util/List;Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose;ILjava/lang/Object;)Lcom/mottostreaming/ott/navigation/NavigationTab;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getId ()Ljava/lang/String;
+	public final fun getKind ()Lcom/mottostreaming/ott/navigation/NavigationTab$Kind;
+	public final fun getPurpose ()Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose;
+	public final fun getRoutes ()Ljava/util/List;
+	public final fun getTitle ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Companion {
+	public final fun overflow (Lbuild/buf/gen/motto/cda/ott/platform/v1/Platform;Ljava/util/List;ILjava/lang/String;)Ljava/util/List;
+	public static synthetic fun overflow$default (Lcom/mottostreaming/ott/navigation/NavigationTab$Companion;Lbuild/buf/gen/motto/cda/ott/platform/v1/Platform;Ljava/util/List;ILjava/lang/String;ILjava/lang/Object;)Ljava/util/List;
+	public final fun pageTabs (Lbuild/buf/gen/motto/cda/ott/platform/v1/Platform;Ljava/lang/String;)Ljava/util/List;
+	public static synthetic fun pageTabs$default (Lcom/mottostreaming/ott/navigation/NavigationTab$Companion;Lbuild/buf/gen/motto/cda/ott/platform/v1/Platform;Ljava/lang/String;ILjava/lang/Object;)Ljava/util/List;
+	public final fun tabLimit (Lcom/mottostreaming/ott/core/platform/DeviceKind;)I
+	public final fun tabs (Lbuild/buf/gen/motto/cda/ott/platform/v1/Platform;Ljava/util/List;ILjava/lang/String;)Ljava/util/List;
+	public static synthetic fun tabs$default (Lcom/mottostreaming/ott/navigation/NavigationTab$Companion;Lbuild/buf/gen/motto/cda/ott/platform/v1/Platform;Ljava/util/List;ILjava/lang/String;ILjava/lang/Object;)Ljava/util/List;
+}
+
+public abstract interface class com/mottostreaming/ott/navigation/NavigationTab$Kind {
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Kind$page : com/mottostreaming/ott/navigation/NavigationTab$Kind {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;)Lcom/mottostreaming/ott/navigation/NavigationTab$Kind$page;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/navigation/NavigationTab$Kind$page;Ljava/lang/String;ILjava/lang/Object;)Lcom/mottostreaming/ott/navigation/NavigationTab$Kind$page;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getTarget ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Kind$screen : com/mottostreaming/ott/navigation/NavigationTab$Kind {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;)Lcom/mottostreaming/ott/navigation/NavigationTab$Kind$screen;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/navigation/NavigationTab$Kind$screen;Ljava/lang/String;ILjava/lang/Object;)Lcom/mottostreaming/ott/navigation/NavigationTab$Kind$screen;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getRoute ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public abstract interface class com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field Companion Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$Companion;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$Companion {
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$account : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$account;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$athletes : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$athletes;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$audio : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$audio;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$competitions : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$competitions;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$favorites : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$favorites;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$help : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$help;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$home : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$home;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$live : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$live;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$news : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$news;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$other : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public fun <init> (I)V
+	public final fun component1 ()I
+	public final fun copy (I)Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$other;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$other;IILjava/lang/Object;)Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$other;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getOrdinal ()I
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$schedule : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$schedule;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$search : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$search;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$series : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$series;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$shop : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$shop;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$standings : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$standings;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$subscription : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$subscription;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$teams : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$teams;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$tickets : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$tickets;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/navigation/NavigationTab$Purpose$videos : com/mottostreaming/ott/navigation/NavigationTab$Purpose {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$videos;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public abstract interface class com/mottostreaming/ott/navigation/Navigator {
+	public abstract fun back ()V
+	public abstract fun getOptions ()Lcom/mottostreaming/ott/navigation/NavigationOptions;
+	public abstract fun open (Ljava/lang/String;)V
+	public abstract fun replayPending ()V
+	public abstract fun setOptions (Lcom/mottostreaming/ott/navigation/NavigationOptions;)V
+}
+
+public final class com/mottostreaming/ott/navigation/StackNavigator : com/mottostreaming/ott/navigation/Navigator {
+	public static final field $stable I
+	public fun <init> (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Ljava/lang/String;Lcom/mottostreaming/ott/navigation/NavigationOptions;)V
+	public synthetic fun <init> (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Ljava/lang/String;Lcom/mottostreaming/ott/navigation/NavigationOptions;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun back ()V
+	public final fun getHandlesExitCommand ()Z
+	public fun getOptions ()Lcom/mottostreaming/ott/navigation/NavigationOptions;
+	public final fun getPath ()Lkotlinx/coroutines/flow/StateFlow;
+	public final fun getRoot ()Ljava/lang/String;
+	public final fun handleExitCommand ()V
+	public final fun isAtRoot ()Z
+	public fun open (Ljava/lang/String;)V
+	public final fun pop ()V
+	public final fun popToRoot ()V
+	public fun replayPending ()V
+	public fun setOptions (Lcom/mottostreaming/ott/navigation/NavigationOptions;)V
+	public final fun setPath (Ljava/util/List;)V
+}
+
+public final class com/mottostreaming/ott/navigation/TabNavigator : com/mottostreaming/ott/navigation/Navigator {
+	public static final field $stable I
+	public static final field historyLimit I
+	public fun <init> (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Ljava/util/List;Lcom/mottostreaming/ott/navigation/NavigationOptions;)V
+	public synthetic fun <init> (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Ljava/util/List;Lcom/mottostreaming/ott/navigation/NavigationOptions;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun back ()V
+	public final fun getHandlesBack ()Z
+	public final fun getHandlesExitCommand ()Z
+	public fun getOptions ()Lcom/mottostreaming/ott/navigation/NavigationOptions;
+	public final fun getSelectedStackIsEmpty ()Z
+	public final fun getSelectedTab ()Lkotlinx/coroutines/flow/StateFlow;
+	public final fun getStacks ()Lkotlinx/coroutines/flow/StateFlow;
+	public final fun getTabs ()Lkotlinx/coroutines/flow/StateFlow;
+	public final fun handleBack ()V
+	public final fun handleExitCommand ()V
+	public fun open (Ljava/lang/String;)V
+	public final fun pop ()V
+	public final fun popToRoot ()V
+	public fun replayPending ()V
+	public final fun rootDestination (Lcom/mottostreaming/ott/navigation/NavigationTab;)Lcom/mottostreaming/ott/navigation/NavigationDestination;
+	public fun setOptions (Lcom/mottostreaming/ott/navigation/NavigationOptions;)V
+	public final fun setSelectedTab (Ljava/lang/String;)V
+	public final fun setStack (Ljava/util/List;Ljava/lang/String;)V
+	public final fun setTabs (Ljava/util/List;)V
+	public final fun stack (Ljava/lang/String;)Ljava/util/List;
+	public final fun tabClicked (Ljava/lang/String;)V
+	public final fun tabReselected ()V
+}
+
+public final class com/mottostreaming/ott/navigation/TabPurposeKt {
+	public static final fun named (Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose$Companion;Ljava/lang/String;)Lcom/mottostreaming/ott/navigation/NavigationTab$Purpose;
+}
+

@@ -1,0 +1,402 @@
+public final class com/mottostreaming/ott/auth/AuthLabelOverrides {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	public synthetic fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component10 ()Ljava/lang/String;
+	public final fun component11 ()Ljava/lang/String;
+	public final fun component12 ()Ljava/lang/String;
+	public final fun component13 ()Ljava/lang/String;
+	public final fun component14 ()Ljava/lang/String;
+	public final fun component15 ()Ljava/lang/String;
+	public final fun component16 ()Ljava/lang/String;
+	public final fun component17 ()Ljava/lang/String;
+	public final fun component18 ()Ljava/lang/String;
+	public final fun component19 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component20 ()Ljava/lang/String;
+	public final fun component21 ()Ljava/lang/String;
+	public final fun component22 ()Ljava/lang/String;
+	public final fun component23 ()Ljava/lang/String;
+	public final fun component24 ()Ljava/lang/String;
+	public final fun component25 ()Ljava/lang/String;
+	public final fun component26 ()Ljava/lang/String;
+	public final fun component27 ()Ljava/lang/String;
+	public final fun component28 ()Ljava/lang/String;
+	public final fun component29 ()Ljava/util/Map;
+	public final fun component3 ()Ljava/lang/String;
+	public final fun component30 ()Ljava/lang/String;
+	public final fun component31 ()Ljava/lang/String;
+	public final fun component32 ()Ljava/lang/String;
+	public final fun component33 ()Ljava/lang/String;
+	public final fun component4 ()Ljava/lang/String;
+	public final fun component5 ()Ljava/lang/String;
+	public final fun component6 ()Ljava/lang/String;
+	public final fun component7 ()Ljava/lang/String;
+	public final fun component8 ()Ljava/lang/String;
+	public final fun component9 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/mottostreaming/ott/auth/AuthLabelOverrides;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/auth/AuthLabelOverrides;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/Object;)Lcom/mottostreaming/ott/auth/AuthLabelOverrides;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getChangePasswordDone ()Ljava/lang/String;
+	public final fun getCode ()Ljava/lang/String;
+	public final fun getCodeCharacter ()Ljava/lang/String;
+	public final fun getConfirmPassword ()Ljava/lang/String;
+	public final fun getContinueWithApple ()Ljava/lang/String;
+	public final fun getContinueWithGoogle ()Ljava/lang/String;
+	public final fun getContinueWithProvider ()Ljava/lang/String;
+	public final fun getCurrentPassword ()Ljava/lang/String;
+	public final fun getEmail ()Ljava/lang/String;
+	public final fun getEmailInvalid ()Ljava/lang/String;
+	public final fun getForgotPassword ()Ljava/lang/String;
+	public final fun getGenericError ()Ljava/lang/String;
+	public final fun getLinkDone ()Ljava/lang/String;
+	public final fun getLinkSignInRequired ()Ljava/lang/String;
+	public final fun getLinkTitle ()Ljava/lang/String;
+	public final fun getNewPassword ()Ljava/lang/String;
+	public final fun getPassword ()Ljava/lang/String;
+	public final fun getPasswordProblem ()Ljava/util/Map;
+	public final fun getPasswordRequirements ()Ljava/lang/String;
+	public final fun getPasswordsDoNotMatch ()Ljava/lang/String;
+	public final fun getRequired ()Ljava/lang/String;
+	public final fun getResetCodeInvalid ()Ljava/lang/String;
+	public final fun getResetLinkSent ()Ljava/lang/String;
+	public final fun getResetPasswordDone ()Ljava/lang/String;
+	public final fun getResetPasswordTitle ()Ljava/lang/String;
+	public final fun getSignIn ()Ljava/lang/String;
+	public final fun getSignOut ()Ljava/lang/String;
+	public final fun getSignUp ()Ljava/lang/String;
+	public final fun getSubmit ()Ljava/lang/String;
+	public final fun getVerificationFailed ()Ljava/lang/String;
+	public final fun getVerified ()Ljava/lang/String;
+	public final fun getVerifying ()Ljava/lang/String;
+	public final fun getWorking ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/auth/AuthLabels {
+	public static final field $stable I
+	public static final field Companion Lcom/mottostreaming/ott/auth/AuthLabels$Companion;
+	public fun <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun component10 ()Ljava/lang/String;
+	public final fun component11 ()Ljava/lang/String;
+	public final fun component12 ()Ljava/lang/String;
+	public final fun component13 ()Ljava/lang/String;
+	public final fun component14 ()Ljava/lang/String;
+	public final fun component15 ()Ljava/lang/String;
+	public final fun component16 ()Ljava/lang/String;
+	public final fun component17 ()Ljava/lang/String;
+	public final fun component18 ()Ljava/lang/String;
+	public final fun component19 ()Ljava/lang/String;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun component20 ()Ljava/lang/String;
+	public final fun component21 ()Ljava/lang/String;
+	public final fun component22 ()Ljava/lang/String;
+	public final fun component23 ()Ljava/lang/String;
+	public final fun component24 ()Ljava/lang/String;
+	public final fun component25 ()Ljava/lang/String;
+	public final fun component26 ()Ljava/lang/String;
+	public final fun component27 ()Ljava/lang/String;
+	public final fun component28 ()Ljava/lang/String;
+	public final fun component29 ()Ljava/util/Map;
+	public final fun component3 ()Ljava/lang/String;
+	public final fun component30 ()Ljava/lang/String;
+	public final fun component31 ()Ljava/lang/String;
+	public final fun component32 ()Ljava/lang/String;
+	public final fun component33 ()Ljava/lang/String;
+	public final fun component4 ()Ljava/lang/String;
+	public final fun component5 ()Ljava/lang/String;
+	public final fun component6 ()Ljava/lang/String;
+	public final fun component7 ()Ljava/lang/String;
+	public final fun component8 ()Ljava/lang/String;
+	public final fun component9 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/mottostreaming/ott/auth/AuthLabels;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/auth/AuthLabels;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IILjava/lang/Object;)Lcom/mottostreaming/ott/auth/AuthLabels;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getChangePasswordDone ()Ljava/lang/String;
+	public final fun getCode ()Ljava/lang/String;
+	public final fun getCodeCharacter ()Ljava/lang/String;
+	public final fun getConfirmPassword ()Ljava/lang/String;
+	public final fun getContinueWithApple ()Ljava/lang/String;
+	public final fun getContinueWithGoogle ()Ljava/lang/String;
+	public final fun getContinueWithProvider ()Ljava/lang/String;
+	public final fun getCurrentPassword ()Ljava/lang/String;
+	public final fun getEmail ()Ljava/lang/String;
+	public final fun getEmailInvalid ()Ljava/lang/String;
+	public final fun getForgotPassword ()Ljava/lang/String;
+	public final fun getGenericError ()Ljava/lang/String;
+	public final fun getLinkDone ()Ljava/lang/String;
+	public final fun getLinkSignInRequired ()Ljava/lang/String;
+	public final fun getLinkTitle ()Ljava/lang/String;
+	public final fun getNewPassword ()Ljava/lang/String;
+	public final fun getPassword ()Ljava/lang/String;
+	public final fun getPasswordProblem ()Ljava/util/Map;
+	public final fun getPasswordRequirements ()Ljava/lang/String;
+	public final fun getPasswordsDoNotMatch ()Ljava/lang/String;
+	public final fun getRequired ()Ljava/lang/String;
+	public final fun getResetCodeInvalid ()Ljava/lang/String;
+	public final fun getResetLinkSent ()Ljava/lang/String;
+	public final fun getResetPasswordDone ()Ljava/lang/String;
+	public final fun getResetPasswordTitle ()Ljava/lang/String;
+	public final fun getSignIn ()Ljava/lang/String;
+	public final fun getSignOut ()Ljava/lang/String;
+	public final fun getSignUp ()Ljava/lang/String;
+	public final fun getSubmit ()Ljava/lang/String;
+	public final fun getVerificationFailed ()Ljava/lang/String;
+	public final fun getVerified ()Ljava/lang/String;
+	public final fun getVerifying ()Ljava/lang/String;
+	public final fun getWorking ()Ljava/lang/String;
+	public fun hashCode ()I
+	public final fun overriding (Lcom/mottostreaming/ott/auth/AuthLabelOverrides;)Lcom/mottostreaming/ott/auth/AuthLabels;
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/auth/AuthLabels$Companion {
+	public final fun getEnglish ()Lcom/mottostreaming/ott/auth/AuthLabels;
+}
+
+public final class com/mottostreaming/ott/auth/AuthReturnKt {
+	public static final field defaultReturnParam Ljava/lang/String;
+	public static final fun returnTarget (Landroid/net/Uri;Ljava/lang/String;)Ljava/lang/String;
+	public static final fun returnTarget (Ljava/net/URI;Ljava/lang/String;)Ljava/lang/String;
+	public static final fun returnTarget (Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
+	public static synthetic fun returnTarget$default (Landroid/net/Uri;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+	public static synthetic fun returnTarget$default (Ljava/net/URI;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+	public static synthetic fun returnTarget$default (Ljava/util/Map;Ljava/lang/String;ILjava/lang/Object;)Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/auth/AuthUiConfiguration {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;Lcom/mottostreaming/ott/auth/AuthLabelOverrides;)V
+	public synthetic fun <init> (Ljava/lang/String;Lcom/mottostreaming/ott/auth/AuthLabelOverrides;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun getLabels ()Lcom/mottostreaming/ott/auth/AuthLabels;
+	public final fun getLocale ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/auth/CodePresentation : java/lang/Enum {
+	public static final field boxes Lcom/mottostreaming/ott/auth/CodePresentation;
+	public static final field field Lcom/mottostreaming/ott/auth/CodePresentation;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lcom/mottostreaming/ott/auth/CodePresentation;
+	public static fun values ()[Lcom/mottostreaming/ott/auth/CodePresentation;
+}
+
+public final class com/mottostreaming/ott/auth/FormSubmission {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;)V
+	public final fun getBusy ()Z
+	public final fun getDone ()Z
+	public final fun getError ()Ljava/lang/String;
+	public final fun getState ()Lkotlinx/coroutines/flow/StateFlow;
+	public final fun getStatus ()Lcom/mottostreaming/ott/auth/SubmitStatus;
+	public final fun reset ()V
+	public final fun run (Lkotlin/jvm/functions/Function1;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class com/mottostreaming/ott/auth/FormSubmission$State {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun <init> (Lcom/mottostreaming/ott/auth/SubmitStatus;Ljava/lang/String;)V
+	public synthetic fun <init> (Lcom/mottostreaming/ott/auth/SubmitStatus;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Lcom/mottostreaming/ott/auth/SubmitStatus;
+	public final fun component2 ()Ljava/lang/String;
+	public final fun copy (Lcom/mottostreaming/ott/auth/SubmitStatus;Ljava/lang/String;)Lcom/mottostreaming/ott/auth/FormSubmission$State;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/auth/FormSubmission$State;Lcom/mottostreaming/ott/auth/SubmitStatus;Ljava/lang/String;ILjava/lang/Object;)Lcom/mottostreaming/ott/auth/FormSubmission$State;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getBusy ()Z
+	public final fun getDone ()Z
+	public final fun getError ()Ljava/lang/String;
+	public final fun getStatus ()Lcom/mottostreaming/ott/auth/SubmitStatus;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/auth/FormsKt {
+	public static final fun ChangePasswordForm (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Lcom/mottostreaming/ott/auth/AuthUiConfiguration;Landroidx/compose/ui/Modifier;Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V
+	public static final fun ForgotPasswordForm (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Lcom/mottostreaming/ott/auth/AuthUiConfiguration;Landroidx/compose/ui/Modifier;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V
+	public static final fun LinkCodeForm (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Lcom/mottostreaming/ott/auth/AuthUiConfiguration;Landroidx/compose/ui/Modifier;Ljava/lang/String;Lcom/mottostreaming/ott/auth/CodePresentation;Ljava/lang/String;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V
+	public static final fun ResetPasswordForm (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Lcom/mottostreaming/ott/auth/AuthUiConfiguration;Ljava/lang/String;Landroidx/compose/ui/Modifier;Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V
+	public static final fun SignInForm (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Lcom/mottostreaming/ott/auth/AuthUiConfiguration;Landroidx/compose/ui/Modifier;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V
+	public static final fun SignUpForm (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Lcom/mottostreaming/ott/auth/AuthUiConfiguration;Landroidx/compose/ui/Modifier;Ljava/lang/String;ZLkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V
+	public static final fun VerifyEmailView (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Lcom/mottostreaming/ott/auth/AuthUiConfiguration;Ljava/lang/String;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function3;Landroidx/compose/runtime/Composer;II)V
+}
+
+public abstract class com/mottostreaming/ott/auth/GoogleSignInError : java/lang/Exception {
+	public static final field $stable I
+	public synthetic fun <init> (Ljava/lang/String;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+}
+
+public final class com/mottostreaming/ott/auth/GoogleSignInError$cancelled : com/mottostreaming/ott/auth/GoogleSignInError {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/auth/GoogleSignInError$cancelled;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/auth/GoogleSignInError$noIdToken : com/mottostreaming/ott/auth/GoogleSignInError {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;)Lcom/mottostreaming/ott/auth/GoogleSignInError$noIdToken;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/auth/GoogleSignInError$noIdToken;Ljava/lang/String;ILjava/lang/Object;)Lcom/mottostreaming/ott/auth/GoogleSignInError$noIdToken;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getType ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/auth/GoogleSignInError$notConfigured : com/mottostreaming/ott/auth/GoogleSignInError {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/auth/GoogleSignInError$notConfigured;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/auth/GoogleSignInError$unsupportedDevice : com/mottostreaming/ott/auth/GoogleSignInError {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/auth/GoogleSignInError$unsupportedDevice;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/auth/LabelsKt {
+	public static final fun resolveAuthLabels (Ljava/lang/String;)Lcom/mottostreaming/ott/auth/AuthLabels;
+}
+
+public final class com/mottostreaming/ott/auth/OidcCallbackState : java/lang/Enum {
+	public static final field exchanging Lcom/mottostreaming/ott/auth/OidcCallbackState;
+	public static final field failed Lcom/mottostreaming/ott/auth/OidcCallbackState;
+	public static final field idle Lcom/mottostreaming/ott/auth/OidcCallbackState;
+	public static final field refused Lcom/mottostreaming/ott/auth/OidcCallbackState;
+	public static final field signedIn Lcom/mottostreaming/ott/auth/OidcCallbackState;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lcom/mottostreaming/ott/auth/OidcCallbackState;
+	public static fun values ()[Lcom/mottostreaming/ott/auth/OidcCallbackState;
+}
+
+public final class com/mottostreaming/ott/auth/OidcSignIn {
+	public static final field $stable I
+	public fun <init> (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Ljava/lang/String;)V
+	public synthetic fun <init> (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun <init> (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	public synthetic fun <init> (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun cancel ()V
+	public final fun getBusy ()Z
+	public final fun getError ()Ljava/lang/Throwable;
+	public final fun getSnapshot ()Lkotlinx/coroutines/flow/StateFlow;
+	public final fun getState ()Lcom/mottostreaming/ott/auth/OidcCallbackState;
+	public final fun handleRedirect (Landroid/net/Uri;)Z
+	public final fun handleRedirect (Ljava/lang/String;)Z
+	public final fun signOut (Landroid/content/Context;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static synthetic fun signOut$default (Lcom/mottostreaming/ott/auth/OidcSignIn;Landroid/content/Context;Ljava/lang/String;Lkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+	public final fun start (Landroid/content/Context;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public final class com/mottostreaming/ott/auth/OidcSignIn$Snapshot {
+	public static final field $stable I
+	public fun <init> ()V
+	public fun <init> (Lcom/mottostreaming/ott/auth/OidcCallbackState;ZLjava/lang/Throwable;)V
+	public synthetic fun <init> (Lcom/mottostreaming/ott/auth/OidcCallbackState;ZLjava/lang/Throwable;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1 ()Lcom/mottostreaming/ott/auth/OidcCallbackState;
+	public final fun component2 ()Z
+	public final fun component3 ()Ljava/lang/Throwable;
+	public final fun copy (Lcom/mottostreaming/ott/auth/OidcCallbackState;ZLjava/lang/Throwable;)Lcom/mottostreaming/ott/auth/OidcSignIn$Snapshot;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/auth/OidcSignIn$Snapshot;Lcom/mottostreaming/ott/auth/OidcCallbackState;ZLjava/lang/Throwable;ILjava/lang/Object;)Lcom/mottostreaming/ott/auth/OidcSignIn$Snapshot;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getBusy ()Z
+	public final fun getError ()Ljava/lang/Throwable;
+	public final fun getState ()Lcom/mottostreaming/ott/auth/OidcCallbackState;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public abstract class com/mottostreaming/ott/auth/OidcSignInError : java/lang/Exception {
+	public static final field $stable I
+	public synthetic fun <init> (Ljava/lang/String;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+}
+
+public final class com/mottostreaming/ott/auth/OidcSignInError$badUrl : com/mottostreaming/ott/auth/OidcSignInError {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;)V
+	public final fun component1 ()Ljava/lang/String;
+	public final fun copy (Ljava/lang/String;)Lcom/mottostreaming/ott/auth/OidcSignInError$badUrl;
+	public static synthetic fun copy$default (Lcom/mottostreaming/ott/auth/OidcSignInError$badUrl;Ljava/lang/String;ILjava/lang/Object;)Lcom/mottostreaming/ott/auth/OidcSignInError$badUrl;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getUrl ()Ljava/lang/String;
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/auth/OidcSignInError$noBrowser : com/mottostreaming/ott/auth/OidcSignInError {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/auth/OidcSignInError$noBrowser;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/auth/OidcSignInError$unsupportedDevice : com/mottostreaming/ott/auth/OidcSignInError {
+	public static final field $stable I
+	public static final field INSTANCE Lcom/mottostreaming/ott/auth/OidcSignInError$unsupportedDevice;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/auth/OidcSignInKt {
+	public static final field oidcCallbackPath Ljava/lang/String;
+	public static final fun signOut (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+}
+
+public abstract class com/mottostreaming/ott/auth/SocialProvider {
+	public static final field $stable I
+}
+
+public final class com/mottostreaming/ott/auth/SocialProvider$google : com/mottostreaming/ott/auth/SocialProvider {
+	public static final field $stable I
+	public fun <init> (Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
+	public synthetic fun <init> (Ljava/lang/String;Lkotlin/jvm/functions/Function1;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun getLabel ()Ljava/lang/String;
+	public final fun getObtainIdToken ()Lkotlin/jvm/functions/Function1;
+}
+
+public final class com/mottostreaming/ott/auth/SocialSignInKt {
+	public static final fun SocialSignInButtons (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Lcom/mottostreaming/ott/auth/AuthUiConfiguration;Ljava/util/List;Landroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V
+	public static final fun obtainGoogleIdToken (Landroid/content/Context;Lcom/mottostreaming/ott/core/client/MottoOTTClient;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+	public static synthetic fun obtainGoogleIdToken$default (Landroid/content/Context;Lcom/mottostreaming/ott/core/client/MottoOTTClient;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;ILjava/lang/Object;)Ljava/lang/Object;
+}
+
+public final class com/mottostreaming/ott/auth/SubmitStatus : java/lang/Enum {
+	public static final field done Lcom/mottostreaming/ott/auth/SubmitStatus;
+	public static final field idle Lcom/mottostreaming/ott/auth/SubmitStatus;
+	public static final field submitting Lcom/mottostreaming/ott/auth/SubmitStatus;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lcom/mottostreaming/ott/auth/SubmitStatus;
+	public static fun values ()[Lcom/mottostreaming/ott/auth/SubmitStatus;
+}
+
+public final class com/mottostreaming/ott/auth/TvPairingViewKt {
+	public static final fun TvPairingView (Lcom/mottostreaming/ott/core/client/MottoOTTClient;Lcom/mottostreaming/ott/auth/AuthUiConfiguration;Landroidx/compose/ui/Modifier;Ljava/lang/String;Lkotlin/jvm/functions/Function0;Landroidx/compose/runtime/Composer;II)V
+}
+
+public final class com/mottostreaming/ott/auth/ValidationKt {
+	public static final fun confirmationError (Ljava/lang/String;Ljava/lang/String;Lcom/mottostreaming/ott/auth/AuthLabels;)Ljava/lang/String;
+	public static final fun emailError (Ljava/lang/String;Lcom/mottostreaming/ott/auth/AuthLabels;)Ljava/lang/String;
+	public static final fun passwordError (Ljava/lang/String;Lcom/mottostreaming/ott/auth/AuthLabels;)Ljava/lang/String;
+}
+
+public final class com/mottostreaming/ott/auth/VerificationState : java/lang/Enum {
+	public static final field failed Lcom/mottostreaming/ott/auth/VerificationState;
+	public static final field verified Lcom/mottostreaming/ott/auth/VerificationState;
+	public static final field verifying Lcom/mottostreaming/ott/auth/VerificationState;
+	public static fun getEntries ()Lkotlin/enums/EnumEntries;
+	public static fun valueOf (Ljava/lang/String;)Lcom/mottostreaming/ott/auth/VerificationState;
+	public static fun values ()[Lcom/mottostreaming/ott/auth/VerificationState;
+}
+
